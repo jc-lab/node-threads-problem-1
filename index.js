@@ -29,7 +29,7 @@ class SoftpaqExtractTransform extends streams.Transform {
                 const beginIndex = buffer.indexOf(mscabBeginPattern);
                 if (beginIndex >= 0) {
                     offset = beginIndex;
-                    this._cabFound = 1;
+                    // this._cabFound = 1;
                     this._cabPatternIndex = 0;
                     console.log("BEGIN PATTERN FOUND: ", (this._totalReadBytes + offset));
                     console.log("this._cabFound =>", this._cabFound);

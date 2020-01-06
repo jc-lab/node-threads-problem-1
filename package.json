@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-transform-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^13.1.4",
+    "@types/progress-stream": "^2.0.0",
+    "ts-node": "^8.5.4",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "progress-stream": "^2.0.0",
+    "threads": "^1.0.0"
+  }
+}
